@@ -71,7 +71,6 @@ def handle_userinput(user_question):
 
 def main():
     load_dotenv()
-    os.getenv("OPENAI_API_KEY")
     st.set_page_config(page_title="Chat with Multiple PDF's")
     st.write(css, unsafe_allow_html=True)
     
